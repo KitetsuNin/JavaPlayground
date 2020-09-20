@@ -6,5 +6,7 @@ public class Main3 {
 
         String dupa = new String(); // tworzy nowy obiekt klasy String, przypisujemy do zmiennej dupa typu String
         Person dupsko = new Person("kamil", 8); // tworzy nowy obiekt klasy Person, przypisujemy do zmiennej dupsko tylko Person
+
+        // TODO learn how to invoke methods on given objects
     }
 }
