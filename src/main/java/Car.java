@@ -27,9 +27,9 @@ public class Car {
         System.out.println(milage);
     }
 
-    public static void printCarAge() {
-        System.out.println(carAge);
-    }
+    //public static void printCarAge() {
+        //System.out.println(carAge);
+    //}
 
     public String getCarName() {
         return carName;
