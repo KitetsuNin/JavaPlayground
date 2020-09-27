@@ -1,31 +1,45 @@
 public class Publication {
 
 
-    private String title;
-    private String publisher;
-    private int year;
-    private String ident;
-    private double price;
-    private int quantity;
+        private String title;
+        private String publisher;
+        private int year;
+        private  String ident;
+        private double price;
+        private int quantity;
 
-    public Publication(String t, String pb, int y,String i, double pr, int q) {
-        title = t;
-        publisher = pb;
+    public Publication (String tit, String pub, int y, String id, double cost, int q) {
+        title = tit;
+        publisher = pub;
         year = y;
-        ident = i;
-        price = pr;
+        ident = id;
+        price = cost;
         quantity = q;
-
-        Publication b = new Publication("Psy", "Dog & Sons", 2002, "ISBN6789", 21.0, 0);
-
-
-
-        }
-
-    public String getTitle() { // ciało (body}
+    }
+        public String getTitle(){
         return title;
+        }
+        public String getPublisher(){
+        return publisher;
+        }
+        public int getYear(){
+        return year;
+        }
+        public String getIdent(){
+        return ident;
+        }
+        public double getPrice(){
+        return price;
+        }
+        public int getQuantity(){
+        return quantity;
+        }
+        public void buy(int n){
+        quantity +=n;
+        }
+        public void sell(int n){
+        quantity -=n;
+        }
+}
 
-    }
-
-    }
 
