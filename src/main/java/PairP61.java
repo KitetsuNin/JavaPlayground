@@ -1,17 +1,18 @@
-public class Pair33 {
+public class PairP61 {
+
     private int a;
     private int b;
 
-    public Pair33(int x, int y) {
+    public PairP61(int x, int y) {
         a=
         b=y;
     }
-    public void set(Pair33 p) {
+    public void set(PairP61 p) {
         a = p.a;
         b = p.b;
     }
-    public Pair33 add(Pair33 p) {
-        Pair33 result = new Pair33(a,b);
+    public PairP61 add(PairP61 p) {
+        PairP61 result = new PairP61(a,b);
         result.a += p.a;
         result.b += p.b;
         return result;
@@ -19,4 +20,5 @@ public class Pair33 {
     public void show(String s) {
         System.out.println(s + " ( " + a + "," + b + ")");
     }
+
 }

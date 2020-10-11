@@ -1,12 +1,22 @@
 public class Main3 {
 
     public static void main(String[] args) {
-        new String(); // tworzy nowy obiekt klasy String
-        new Person("michal", 7); // tworzy nowy obiekt klasy Person
+        Publication book = new Publication("harry potter", "wydawnictwo", 2012, "ISBN1111", 10.2, 15);
 
-        String dupa = new String(); // tworzy nowy obiekt klasy String, przypisujemy do zmiennej dupa typu String
-        Person dupsko = new Person("kamil", 8); // tworzy nowy obiekt klasy Person, przypisujemy do zmiennej dupsko tylko Person
+        double price = book.getPrice();
+        System.out.println(price);
 
-        // TODO learn how to invoke methods on given objects
+        Publication book2 = new Publication("hari pota", "oko", 2020, "asdasd", 18.5);
+        int quantity = book2.getQuantity();
+        System.out.println(quantity);
+        System.out.println(Publication.dupa);
+        Publication.dupa = "siusiak";
+        System.out.println(book.dupa);
+        System.out.println(book2.dupa);
+
+        book.setPrice(15);
+
+        double price1 = book.getPrice();
+        System.out.println(price1);
     }
 }
