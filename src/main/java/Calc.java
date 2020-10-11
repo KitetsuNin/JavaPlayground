@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Calc {
-    public static void main (String args[]) {
-    Scanner dupa = new Scanner(System.in);
-    double liczba1, liczba2, suma, roznica, iloczyn, iloraz;
+    public static void main(String args[]) {
+        Scanner dupa = new Scanner(System.in);
+        double liczba1, liczba2, suma, roznica, iloczyn, iloraz;
 
         System.out.println("Podaj pierwsza liczbe:");
         liczba1 = dupa.nextDouble();
